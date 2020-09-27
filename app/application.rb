@@ -5,7 +5,6 @@ class Application
     
     if Time.now.to_i <= 12 
       resp.write "Good Morning!"
-      binding.pry
     else 
       resp.write "Good Afternoon!"
     end 
